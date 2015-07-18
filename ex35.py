@@ -1,8 +1,8 @@
-from sys import exit
+from sys import exit #abort the program
 def gold_room():
 	print 'this room is full of gold, how much do you take?'
 	choice = raw_input('> ')
-	if '0' in choice  or '1' in choice:
+	if '0' in choice  or '1' in choice: #a number with 1 or 0
 		how_much = int(choice)
 	else:
 		dead('Man, Learn to type a number')
