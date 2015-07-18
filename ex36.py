@@ -67,7 +67,7 @@ def dentiste_room():
 
 #prompt()
 def prompt(smt):
-	print 'Hello', nom, '\n', smt
+	print nom, '\n', smt
 
 #start()
 def start():
