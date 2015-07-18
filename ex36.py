@@ -64,7 +64,7 @@ def dentiste_room():
 	else:
 		prompt('Rendez vous ou queue !!')
 		dentiste_room()
-
+##
 #prompt()
 def prompt(smt):
 	print nom, '\n', smt
