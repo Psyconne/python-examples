@@ -1,3 +1,4 @@
+#-*- coding:utf-8 -*-
 from sys import argv
 import random
 
@@ -67,11 +68,11 @@ def dentiste_room():
 
 #prompt()
 def prompt(smt):
-	print nom, '\n', smt
+	print smt, '\n'
 
 #start()
 def start():
-	prompt('Coiffeur, vendeur, dentiste ?')
+	prompt('Tu choisis: \n Coiffeur, vendeur, dentiste ?')
 	choix = raw_input('> ')
 	
 	if choix == 'coiffeur':
@@ -81,9 +82,10 @@ def start():
 	elif choix == 'dentiste':
 		dentiste_room()
 	else:
-		prompt('Aucun choix')
+		prompt('Choix erroné')
 		start()	
 
+print nom
 start()
 
 
