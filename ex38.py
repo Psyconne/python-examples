@@ -19,7 +19,10 @@ print stuff[1]
 
 #one
 print stuff.pop() # this is how python do his job ===> pop(stuff) 
+
 #Apple Orange Banana Carrot home sky books school two
 print ' '.join(stuff)
+
 #Banana#Carrot#home
 print '#'.join(stuff[2:5])
+#That extracts a "slice" from the stuff list that is from element 3 to element 4, meaning it does not include element 5.
